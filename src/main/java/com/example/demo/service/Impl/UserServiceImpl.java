@@ -6,7 +6,7 @@ import com.example.demo.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-@Service
+@Service("UserService")
 public class UserServiceImpl implements UserService {
 
     //将DAO注入Service层
